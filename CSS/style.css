@@ -1,0 +1,41 @@
+body {
+    border-style: solid;
+    border-width: 245px 250px 254px 235px;
+    -moz-border-image: url(../Images/main_border.png) 245 250 254 235 round;
+    -webkit-border-image: url(../Images/main_border.png) 245 250 254 235 round;
+    -o-border-image: url(../Images/main_border.png) 245 250 254 235 round;
+    border-image: url(../Images/main_border.png) 245 250 254 235 fill round;
+}
+
+h1 {
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    position: fixed;
+    top: 54px;
+    left: 44%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 300%;
+
+}
+.ribbon {
+    position: fixed;
+    top: 10px;
+    left: 40%;
+}
+.grimoire {
+    position: relative;
+    left: 22%;
+    top: auto;
+}
+.text1 {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid black;
+}
+span {
+  float: left;
+  width: ;
+  font-size: 300%;
+  font-family: 'Great Vibes', cursive;
+  line-height: 10%;
+}
